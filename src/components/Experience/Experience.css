@@ -27,13 +27,18 @@
     margin-bottom: 2rem;
 }
 
+.duties-list {
+    font-family: var(--primaryFont);
+    font-size: 16px;
+}
+
 .experience-card {
     display: flex;
     flex-direction: row;
     align-items:flex-start;
     justify-content: flex-start;
     width: 90%;
-    height: 140px;
+    /* height: 140px; */
     padding: 1.5rem;
     border-radius: 20px;
     margin-bottom: 1.5rem;
