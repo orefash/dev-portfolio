@@ -72,7 +72,7 @@ function ProjectPage() {
             <Helmet>
                 <title>{headerData.name} | Projects</title>
             </Helmet>
-            <div className="projectPage-header" style={{backgroundColor:theme.primary}}>
+            <div className="projectPage-header" style={{backgroundColor:theme.tertiary2}}>
                 <Link to="/">
                         <AiOutlineHome className={classes.home}/>
                 </Link>

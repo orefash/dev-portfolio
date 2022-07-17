@@ -51,6 +51,53 @@ export const greenThemeDark = {
     expimg: expGreen,
     contactsimg: contactsGreen
 }
+
+export const myTheme2 = {
+    type: 'dark',
+    primary: '#CCD6F6',
+    primary400: '#B6B6B6',
+    primary600: '#B6B6B6',
+    primary80: '#B6B6B6cc',
+    primary50: '#B6B6B680',
+    primary30: '#B6B6B64d',
+    secondary: '#020C1B',
+    secondary70: '#020C1Bb3',
+    secondary50: '#020C1B80',
+    secondary40: '#03142e',
+    tertiary: '#CCD6F6',
+    tertiary1: '#8892B0',
+    tertiary2: '#64FFDA',
+    tertiary80: '#eaeaeacc',
+    tertiary70: '#eaeaeab3',
+    tertiary50: '#eaeaea80',
+    white: '#ffffff',
+    aboutimg1: bwThemeboy,
+    aboutimg2: bwThemegirl,
+    eduimg: eduBlack,
+    expimg: expBlack,
+    contactsimg: contactsBlack
+}
+export const myTheme1 = {
+    type: 'light',
+    primary: '#000000',
+    primary400: '#000000',
+    primary600: '#000000',
+    primary80: '#000000cc',
+    primary50: '#00000080',
+    primary30: '#0000004d',
+    secondary: '#EAEAEA',
+    secondary70: '#EAEAEAb3',
+    secondary50: '#EAEAEA80',
+    tertiary: '#EAEAEA',
+    tertiary80: '#212121cc',
+    tertiary70: '#212121b3',
+    tertiary50: '#21212180',
+    aboutimg1: bwThemeboy,
+    aboutimg2: bwThemegirl,
+    eduimg: eduBlack,
+    expimg: expBlack,
+    contactsimg: contactsBlack
+}
 export const bwThemeLight = {
     type: 'light',
     primary: '#000000',

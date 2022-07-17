@@ -5,7 +5,7 @@ import { IoMenuSharp, IoHomeSharp } from 'react-icons/io5';
 import { HiDocumentText } from 'react-icons/hi';
 import { BsFillGearFill } from 'react-icons/bs';
 import { MdPhone } from 'react-icons/md';
-import { FaUser, FaFolderOpen } from 'react-icons/fa';
+// import { FaUser, FaFolderOpen } from 'react-icons/fa';
 import { makeStyles } from '@material-ui/core/styles';
 import Drawer from '@material-ui/core/Drawer';
 import CloseIcon from '@material-ui/icons/Close';
@@ -32,7 +32,7 @@ function Navbar() {
     const useStyles = makeStyles((t) => ({
         navMenu: {
             fontSize: '2.5rem',
-            color: theme.tertiary,
+            color: theme.tertiary2,
             cursor: 'pointer',
             transform: 'translateY(-10px)',
             transition: 'color 0.3s',
@@ -113,6 +113,8 @@ function Navbar() {
             },
         },
         drawerIcon: {
+            
+            color: theme.tertiary2,
             fontSize: '1.6rem',
             [t.breakpoints.down('sm')]: {
                 fontSize: '1.385rem',
@@ -195,7 +197,7 @@ function Navbar() {
                             </NavLink>
                         </Fade>
 
-                        <Fade left>
+                        {/* <Fade left>
                             <NavLink
                                 to='/#about'
                                 smooth={true}
@@ -209,7 +211,7 @@ function Navbar() {
                                     </span>
                                 </div>
                             </NavLink>
-                        </Fade>
+                        </Fade> */}
 
                         <Fade left>
                             <NavLink

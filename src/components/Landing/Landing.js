@@ -19,7 +19,7 @@ function Landing() {
 
     const useStyles = makeStyles((t) => ({
         resumeBtn: {
-            color: theme.primary,
+            color: theme.tertiary2,
             borderRadius: '30px',
             textTransform: 'inherit',
             textDecoration: 'none',
@@ -28,19 +28,19 @@ function Landing() {
             fontWeight: '500',
             height: '50px',
             fontFamily: 'var(--primaryFont)',
-            border: `3px solid ${theme.primary}`,
+            border: `3px solid ${theme.tertiary2}`,
             transition: '100ms ease-out',
             '&:hover': {
-                backgroundColor: theme.tertiary,
+                backgroundColor: theme.tertiary2,
                 color: theme.secondary,
-                border: `3px solid ${theme.tertiary}`,
+                border: `3px solid ${theme.tertiary2}`,
             },
             [t.breakpoints.down('sm')]: {
                 width: '180px',
             },
         },
         contactBtn: {
-            backgroundColor: theme.primary,
+            backgroundColor: theme.tertiary2,
             color: theme.secondary,
             borderRadius: '30px',
             textTransform: 'inherit',
@@ -50,12 +50,12 @@ function Landing() {
             fontSize: '1rem',
             fontWeight: '500',
             fontFamily: 'var(--primaryFont)',
-            border: `3px solid ${theme.primary}`,
+            border: `3px solid ${theme.tertiary2}`,
             transition: '100ms ease-out',
             '&:hover': {
                 backgroundColor: theme.secondary,
-                color: theme.tertiary,
-                border: `3px solid ${theme.tertiary}`,
+                color: theme.tertiary2,
+                border: `3px solid ${theme.tertiary2}`,
             },
             [t.breakpoints.down('sm')]: {
                 display: 'none',
@@ -70,7 +70,7 @@ function Landing() {
             <div className='landing--container'>
                 <div
                     className='landing--container-left'
-                    style={{ backgroundColor: theme.primary }}
+                    style={{ backgroundColor: theme.tertiary2 }}
                 >
                     <div className='lcl--content'>
                         {socialsData.linkedIn && (
@@ -157,9 +157,11 @@ function Landing() {
                         className='lcr--content'
                         style={{ color: theme.tertiary }}
                     >
-                        <h6>{headerData.title}</h6>
+                        <h6 style={{ color: theme.tertiary2 }}>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p>{headerData.desciption}</p>
+                        <p style={{ color: theme.tertiary1 }}>{headerData.desciption_1}</p>
+                        <p style={{ color: theme.tertiary1 }}>{headerData.desciption_2}</p>
+                        <p style={{ color: theme.tertiary1 }}>{headerData.desciption_3}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (

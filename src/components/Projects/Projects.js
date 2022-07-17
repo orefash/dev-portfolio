@@ -16,7 +16,7 @@ function Projects() {
     
     const useStyles = makeStyles(() => ({
         viewAllBtn : {
-            color: theme.tertiary, 
+            color: theme.white, 
             backgroundColor: theme.primary,
             transition: 'color 0.2s',
             "&:hover": {
@@ -25,7 +25,7 @@ function Projects() {
             }
         },
         viewArr : {
-            color: theme.tertiary, 
+            color: theme.white, 
             backgroundColor: theme.secondary70,
             width: '40px',
             height: '40px',

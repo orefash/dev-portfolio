@@ -28,16 +28,17 @@ function ExperienceCard({id, company, jobtitle, startYear, endYear, duties}) {
     return (
         <Fade bottom>
             <div key={id} className={`experience-card ${classes.experienceCard}`}>
-                <div className="expcard-img" style={{backgroundColor: theme.primary}}>
+                {/* <div className="expcard-img" style={{backgroundColor: theme.primary}}> */}
+                <div className="expcard-img" >
                     <img src={theme.type === 'light' ? expImgBlack : expImgWhite} alt="" />
                 </div>
                 <div className="experience-details">
-                    <h6 style={{color: theme.primary}}>{startYear}-{endYear}</h6>
-                    <h4 style={{color: theme.tertiary}}>{jobtitle}</h4>
-                    <h5 style={{color: theme.tertiary80}}>{company}</h5>
+                    <h6 style={{color: theme.tertiary1}}>{startYear}-{endYear}</h6>
+                    <h4 style={{color: theme.tertiary2}}>{jobtitle}</h4>
+                    <h5 style={{color: theme.tertiary}}>{company}</h5>
                     <ul>
                     {duties.map(exp =>(
-                        <li style={{color: theme.tertiary80}} className="duties-list">{exp}</li>
+                        <li style={{color: theme.tertiary1}} className="duties-list">{exp}</li>
                     ))}
                     </ul>
                 </div>

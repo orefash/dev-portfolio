@@ -72,7 +72,7 @@ function Contacts() {
         },
         label: {
             backgroundColor: `${theme.secondary}`,
-            color: `${theme.primary}`,
+            color: `${theme.tertiary2}`,
             fontFamily: 'var(--primaryFont)',
             fontWeight: 600,
             fontSize: '0.9rem',
@@ -116,7 +116,7 @@ function Contacts() {
             },
         },
         submitBtn: {
-            backgroundColor: theme.primary,
+            backgroundColor: theme.tertiary2,
             color: theme.secondary,
             transition: '250ms ease-in-out',
             '&:hover': {
@@ -167,7 +167,7 @@ function Contacts() {
             style={{ backgroundColor: theme.secondary }}
         >
             <div className='contacts--container'>
-                <h1 style={{ color: theme.primary }}>Contacts</h1>
+                <h1 style={{ color: theme.primary }}>Get In Touch</h1>
                 <div className='contacts-body'>
                     <div className='contacts-form'>
                         <form onSubmit={handleContactForm}>
@@ -427,11 +427,11 @@ function Contacts() {
                     </div>
                 </div>
             </div>
-            <img
+            {/* <img
                 src={theme.contactsimg}
                 alt='contacts'
                 className='contacts--img'
-            />
+            /> */}
         </div>
     );
 }

@@ -15,7 +15,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             width: 40,
             height: 40,
             borderRadius: 50,
-            border: `2px solid ${theme.tertiary}`,
+            border: `2px solid ${theme.white}`,
             color: theme.tertiary,
             transition: 'all 0.2s',
             '&:hover': {
@@ -26,6 +26,7 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             },
         },
         icon: {
+            color: theme.white,
             fontSize: '1.1rem',
             transition: 'all 0.2s',
             '&:hover': {},
@@ -39,12 +40,12 @@ function SingleProject({ id, name, desc, tags, code, demo, image, theme }) {
             <div
                 key={id}
                 className='singleProject'
-                style={{ backgroundColor: theme.primary400 }}
+                style={{ backgroundColor: theme.secondary40 }}
             >
                 <div className='projectContent'>
                     <h2
                         id={name.replace(' ', '-').toLowerCase()}
-                        style={{ color: theme.tertiary }}
+                        style={{ color: theme.tertiary2 }}
                     >
                         {name}
                     </h2>
