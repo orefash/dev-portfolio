@@ -1,7 +1,7 @@
-import one from '../assets/png/biz2.PNG'
-import two from '../assets/png/medical.PNG'
-import three from '../assets/svg/projects/three.svg'
-import four from '../assets/svg/projects/four.svg'
+import one from '../assets/png/biznewz2.png'
+import two from '../assets/png/smr2.png'
+import three from '../assets/png/primepay.png'
+import four from '../assets/png/chat2chop.png'
 import five from '../assets/svg/projects/five.svg'
 import six from '../assets/svg/projects/six.svg'
 import seven from '../assets/svg/projects/seven.svg'
@@ -18,6 +18,25 @@ export const projectsData = [
         demo: 'https://biznewz-web.vercel.app/',
         image: one
     },
+    
+    {
+        id: 3,
+        projectName: 'Instant Loan Application Chatbot',
+        projectDesc: 'Grant instant loans to customers at store checkout or for personal use through automated conversations on whatsapp, Instagram and Facebook',
+        tags: ['Nodejs', 'Express', 'Mongodb', 'Meta APIs'],
+        code: 'https://github.com/orefash/loan-app',
+        demo: 'https://www.instagram.com/prime.pay/',
+        image: three
+    },
+    {
+        id: 4,
+        projectName: 'Chat2Chop - Food Ordering Chatbot',
+        projectDesc: 'Customers view the menu, place orders, make payments and track orders from the Facebook messenger chat',
+        tags: ['Nodejs', 'Postgresql', 'Express', 'Meta Developer APIs'],
+        code: 'https://github.com/orefash/amaka-app',
+        demo: 'https://m.me/100878724785586',
+        image: four
+    },
     {
         id: 2,
         projectName: 'Student Medicals Manager',
@@ -26,24 +45,6 @@ export const projectsData = [
         code: 'https://github.com/orefash/Student-Medical-Register',
         demo: 'https://crc-clinic.glitch.me/',
         image: two
-    },
-    {
-        id: 3,
-        projectName: 'Weather App',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: three
-    },
-    {
-        id: 4,
-        projectName: 'Android Patient Tracker',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
-        code: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        demo: 'https://github.com/hhhrrrttt222111/developer-portfolio',
-        image: four
     },
     
 ]

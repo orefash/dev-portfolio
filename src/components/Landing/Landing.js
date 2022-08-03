@@ -159,9 +159,9 @@ function Landing() {
                     >
                         <h6 style={{ color: theme.tertiary2 }}>{headerData.title}</h6>
                         <h1>{headerData.name}</h1>
-                        <p style={{ color: theme.tertiary1 }}>{headerData.desciption_1}</p>
-                        <p style={{ color: theme.tertiary1 }}>{headerData.desciption_2}</p>
-                        <p style={{ color: theme.tertiary1 }}>{headerData.desciption_3}</p>
+                        <p style={{ color: theme.tertiary }}>{headerData.desciption_1}</p>
+                        <p style={{ color: theme.tertiary }}>{headerData.desciption_2}</p>
+                        <p style={{ color: theme.tertiary }}>{headerData.desciption_3}</p>
 
                         <div className='lcr-buttonContainer'>
                             {headerData.resumePdf && (

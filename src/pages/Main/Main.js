@@ -15,10 +15,10 @@ function Main() {
 
             <Navbar />        
             <Landing />
-            {/* <About /> */}
-            <Education />
             <Skills />
             <Experience />
+            {/* <About /> */}
+            {/* <Education /> */}
             <Projects />
             <Achievement />
             <Services />
