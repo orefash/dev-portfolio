@@ -3,5 +3,5 @@ export const contactsData = {
     phone: '+2349061507348',
     address: 'Lagos, Nigeria',
 
-    sheetAPI: 'https://sheetdb.io/api/v1/4r2p7x741cmk5'
+    sheetAPI: 'https://sheetdb.io/api/v1/gsfpmrn4oj6zo'
 }
